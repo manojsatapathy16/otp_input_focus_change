@@ -1,0 +1,44 @@
+
+.button{
+  background-color: rgb(34, 170, 95);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.resetBtn.button{
+	background-color: rgb(218, 203, 3);
+	color: #000000;
+	margin-left: 20px;
+}
+.button.disable{
+  background-color: rgb(80, 80, 80);
+  cursor: not-allowed;
+}
+.otp_text{
+  width: 30px;
+  height: 30px;
+  border:1px solid #000;
+  text-align: center;
+}
+.input_fields {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.App form {
+	padding: 50px;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
